@@ -1,6 +1,6 @@
 #include <APM10.h>
 
-#define PIN_SENSOR_PWM 14
+#define PIN_SENSOR_PWM 14 //Set this to an interrupt-capable GPIO pin
 
 APM10 sensor;
 APM10::pmData data;
@@ -26,5 +26,5 @@ void setup() {
 void loop() {
   Serial.print("pwmPM_2.5: "+String(pwmPM)+"\t"); //print PM2.5 value calculated from PWM
   Serial.println("APM10_2.5: "+String(sensor.PM2_5_TO_AQI(pwmPM))); //convert PM2.5 to AQI
-  delay(500); //sensor refresh rate is 1 Hz
+  delay(1000); //sensor refresh rate is 1 Hz
 }
