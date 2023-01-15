@@ -23,3 +23,5 @@ The driver and examples are compatible with any I2C, UART, or interrupt-capable 
 First, make sure you have the Wire and SoftwareSerial libraries installed.
 
 Then, download the library .ZIP (green button above "Code" --> Download ZIP) and extract the APM10 folder to your Arduino/libraries folder.
+
+![APM10]
