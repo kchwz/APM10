@@ -24,4 +24,4 @@ First, make sure you have the Wire and SoftwareSerial libraries installed.
 
 Then, download the library .ZIP (green button above "Code" --> Download ZIP) and extract the APM10 folder to your Arduino/libraries folder.
 
-![APM10]
+![APM10](https://github.com/kchwz/APM10/blob/main/APM10_pinout.png)
